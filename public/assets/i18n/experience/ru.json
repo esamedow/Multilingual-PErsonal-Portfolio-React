@@ -1,0 +1,18 @@
+{
+    "theskills": "Умения и",
+    "myexperience": "Навыки",
+    "frontdev": "Frontend Разработка",
+    "advanced": "Продвинутый",
+    "basic": "Базовый",
+    "html": "HTML",
+    "css": "CSS",
+    "js": "JavaScript",
+    "bootstrap": "Bootstrap",
+    "React": "React",
+    "backdev": "Backend Разработка",
+    "nodejs": "Node JS",
+    "php": "PHP",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "python": "Python"
+}

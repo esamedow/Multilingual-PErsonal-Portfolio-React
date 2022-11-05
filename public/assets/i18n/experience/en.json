@@ -1,0 +1,18 @@
+{
+    "theskills": "The Skills I Have",
+    "myexperience": "My Experience",
+    "frontdev": "Frontend Development",
+    "advanced": "Advanced",
+    "basic": "Basic",
+    "html": "HTML",
+    "css": "CSS",
+    "js": "JavaScript",
+    "bootstrap": "Bootstrap",
+    "React": "React",
+    "backdev": "Backend Development",
+    "nodejs": "Node JS",
+    "php": "PHP",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "python": "Python"
+}

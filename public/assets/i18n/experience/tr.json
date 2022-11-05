@@ -1,0 +1,18 @@
+{
+    "theskills": "Yetenek ve",
+    "myexperience": "Beceriler",
+    "frontdev": "Frontend Geliştirme",
+    "advanced": "İleri Seviye",
+    "basic": "Temel Seviye",
+    "html": "HTML",
+    "css": "CSS",
+    "js": "JavaScript",
+    "bootstrap": "Bootstrap",
+    "react": "React",
+    "backdev": "Backend Geliştirme",
+    "nodejs": "Node JS",
+    "php": "PHP",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "python": "Python"
+}
