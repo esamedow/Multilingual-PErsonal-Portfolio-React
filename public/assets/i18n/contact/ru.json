@@ -4,8 +4,8 @@
     "email": "Эл.почта",
     "sendamessage": "Отправить сообщение",
     "sendaemail": "Отправить письмо",
-    "fullname": "Ваше Имя",
-    "youremail": "Ваша Эл.почта",
-    "yourmessage": "Ваше сообщение",
+    "fullname": "Имя",
+    "youremail": "Эл.почта",
+    "yourmessage": "Сообщение",
     "sendmessage": "Отправить"
 }
