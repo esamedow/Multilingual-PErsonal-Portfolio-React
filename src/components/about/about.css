@@ -7,7 +7,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,transparent, var(--color-primary),transparent);
+    background: linear-gradient(45deg,transparent, var(--color-aboutme),transparent);
     display: grid;
     place-items: center;
 
@@ -41,18 +41,22 @@
 }
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-aboutme);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-aboutme);
     font-size : 1.4rem;
     margin-bottom: 1rem;
 }
 
 .about__card h5 {
     font-size: 0.95rem;
+}
+
+.abouth5 {
+    color: var(--color-aboutme);
 }
 
 .about__card small {
@@ -62,9 +66,19 @@
 
 .about__content p {
 margin : 2rem 0 2.6rem;
-color: var(--color-light)
+color: var(--color-bg-variant)
 }
 
+.letstalk2-btn {
+    background-color: var(--color-aboutme) !important;
+    border-color: var(--color-aboutme) !important;
+}
+
+.letstalk2-btn:hover {
+    background: var(--color-white) !important;
+    color: var(--color-bg) !important;
+    border-color: transparent !important;
+}
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
     .about__container {
@@ -89,7 +103,7 @@ color: var(--color-light)
         }
 
         .about__cards {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 1rem;
         }
 

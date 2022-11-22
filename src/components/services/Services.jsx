@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>{t("whatioffer")}</h5>
-      <h2>{t("services")}</h2>
+      <h2 className='servh2'>{t("services")}</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">

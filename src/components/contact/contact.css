@@ -22,7 +22,7 @@
 
 .contact__option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-contact);
 }
 .contact__option-icon {
     font-size: 1.5rem;
@@ -34,6 +34,20 @@
     font-size: 0.8rem;
 }
 
+.contactmeh2 {
+    color: var(--color-contact);
+}
+
+.sendmessagebtn {
+    background-color: var(--color-contact) !important;
+    border-color: var(--color-contact) !important ;
+}
+
+.sendmessagebtn:hover {
+    background: var(--color-white) !important;
+    color: var(--color-bg) !important;
+    border-color: transparent !important;
+}
 /*  ================= FORM ============*/
 
 form {
@@ -47,11 +61,14 @@ input , textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-contact-form);
     resize: none;
     color: var(--color-white);
 }
 
+.sendbuttoncolor {
+    color: var(--color-contact);
+}
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
     .container.contact__container {

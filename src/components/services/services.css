@@ -9,7 +9,7 @@
 .service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-services);
     height: fit-content;
     transition: var(--transition);
 
@@ -21,19 +21,19 @@
 
 .service:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 
 .service__head {
-    background: var(--color-primary);
+    background: var(--color-services);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
 }
 
 .service__head h3 {
-    color: var(--color-bg);
+    color: var(--color-white);
     font-size: 1rem ;
     text-align: center;
 }
@@ -47,7 +47,7 @@
     margin-bottom: 0.8rem;
 }
 .service__list-icon {
-    color: var(--color-primary);
+    color: var(--color-services);
     margin-top: 2px;
 }
 
@@ -55,6 +55,9 @@
     font-size: 0.9rem;
 }
 
+.servh2 {
+    color: var(--color-services);
+}
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
     .services__container {

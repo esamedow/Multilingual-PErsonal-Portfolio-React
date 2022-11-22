@@ -26,10 +26,10 @@ const CTA = () => {
          <select className='btn btn-primary' id="" 
          onChange={handleLanguageChange}
          value={localStorage.getItem("i18nextLng")}>
-           <option value="en"><ReactCountryFlag countryCode='UK'/></option>
-           <option value="ru"><ReactCountryFlag countryCode='RU'/></option>
-           <option value="tr"><ReactCountryFlag countryCode='TR'/></option>
-           <option value="tr"><ReactCountryFlag countryCode='AZ'/></option>
+           <option value="en">EN</option>
+           <option value="ru">RU</option>
+           <option value="tr">TR</option>
+           <option value="tr">AZ</option>
          </select>
     </div>
   )

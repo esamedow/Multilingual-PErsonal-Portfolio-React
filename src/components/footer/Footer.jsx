@@ -1,9 +1,10 @@
 import React from 'react'
 import './footer.css'
 import {FaTelegramPlane} from 'react-icons/fa'
-import {BsInstagram} from 'react-icons/bs'
+import {BsGithub, BsInstagram} from 'react-icons/bs'
 import {SlSocialVkontakte} from 'react-icons/sl'
 import {useTranslation} from "react-i18next"
+import { AiOutlineGithub } from 'react-icons/ai'
 
 const Footer = () => {
   const { t } = useTranslation(["footer"]);
@@ -21,14 +22,17 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://t.me/+79884665089" target="_blank">
-          <FaTelegramPlane/>
+        <a href="https://github.com/esamedow" target="_blank">
+          <BsGithub/>
         </a>
         <a href="https://instagram.com/esamedow" target="_blank">
           <BsInstagram/>
         </a>
         <a href="https://vk.com/esamedow" target="_blank">
           <SlSocialVkontakte/>
+        </a>
+        <a href="https://t.me/+79884665089" target="_blank">
+          <FaTelegramPlane/>
         </a>
       </div>
 

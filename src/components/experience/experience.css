@@ -18,12 +18,12 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-myexp);
     cursor: default;
 }
 .experience__container > div h3 {
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-myexp);
     margin-bottom: 2rem;
 }
 
@@ -39,7 +39,11 @@
 
 .experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--color-myexp);
+}
+
+.myexph2 {
+    color: var(--color-myexp) !important;
 }
 
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */

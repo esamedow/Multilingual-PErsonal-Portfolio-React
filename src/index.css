@@ -12,10 +12,16 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #0000004d;
-    --color-primary: #ff004f;
+    --color-bg-variant: #161B22;
+    --color-primary: /* */ #939aff; 
+    --color-aboutme: #ff7b72  ;
+    --color-myexp: #ffa28b ;
+    --color-services: #6e40c9 ;
+    --color-contact : #7ee787  ;
+    --color-contact-form : #7ee78758  ;
     --color-primary-variant : rgba(0, 0, 0, 0.448);
     --color-white : #fff;
+    --color-gray : rgb(106, 122, 143);
     --color-light : rgba (255,255,255,0.6);
 
     --transition: all 400ms ease;
@@ -35,10 +41,10 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: #0D1117;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: #0D1117;
 }
 
 /* =============  GENERAL STYLES  =============*/

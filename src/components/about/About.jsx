@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section id='about'>
      <h5>{t("gettoknow")}</h5>
-     <h2>{t("aboutme")}</h2>
+     <h2 className='abouth5'>{t("aboutme")}</h2>
     <div className="container about__container">
       <div className="about__me">
        <div className="about__me-image">
@@ -42,7 +42,7 @@ const About = () => {
          <p>
           
          </p>
-         <a href="#contact" className='btn btn-primary'>{t("letstalk2")}</a>
+         <a href="#contact" className='btn btn-primary letstalk2-btn'>{t("letstalk2")}</a>
 
       </div>
     </div>

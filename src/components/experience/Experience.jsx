@@ -13,8 +13,8 @@ const Experience = () => {
   
   return (  
     <section id='experience'>
-      <h5>{t("theskills")}</h5>
-      <h2>{t("myexperience")}</h2>
+      <h5 >{t("theskills")}</h5>
+      <h2 className='myexph2'>{t("myexperience")}</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
