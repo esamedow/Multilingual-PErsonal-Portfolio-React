@@ -2,10 +2,10 @@
     "gettoknow":"Get To Know",
     "aboutme": "About Me",
     "experience":"Experience",
-    "yearworking":"- Year Working",
+    "yearworking":"-",
     "clients": "Clients",
-    "worldwide":"- Worldwide",
+    "worldwide":"-",
     "projects":"Projects",
-    "completed":"- Completed",
+    "completed":"-",
     "letstalk2": "Let's Talk"
 }

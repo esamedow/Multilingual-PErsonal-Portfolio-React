@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +11,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
 
 :root {
@@ -19,6 +23,7 @@
     --color-services: #6e40c9 ;
     --color-contact : #7ee787  ;
     --color-contact-form : #7ee78758  ;
+    --color-portfolio : #6971dd ;
     --color-primary-variant : rgba(0, 0, 0, 0.448);
     --color-white : #fff;
     --color-gray : rgb(106, 122, 143);
@@ -40,11 +45,11 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #0D1117;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #171717;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: #0D1117;
+
 }
 
 /* =============  GENERAL STYLES  =============*/
@@ -112,8 +117,11 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: transparent;
     color: var(--color-bg);
+}
+.btn-lang {
+    color: var(--color-primary);
 }
 
 img {
@@ -135,6 +143,7 @@ img {
 
 /* ============= MEDIA QUERIES ( SMALL DEVICES) ========= */
 @media screen and (max-width : 600px){
+
     .container {
         width: var(--container-width-sm);
     }

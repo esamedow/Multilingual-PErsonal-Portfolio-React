@@ -2,28 +2,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-
+    background-color: var(--color-bg-variant);
     width:80%;
     margin : 0 auto;
+    overflow: hidden;
 
 }
 
 .experience__container > div:hover {
-    background: transparent;
+
     border-color: var(--color-myexp);
     cursor: default;
 }
 .experience__container > div h3 {
     text-align: center;
-    color: var(--color-myexp);
+    color: var(--color-white);
     margin-bottom: 2rem;
 }
 
@@ -46,6 +47,22 @@
     color: var(--color-myexp) !important;
 }
 
+.trigfront {
+    background-color: var(--color-bg-variant);
+    background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode:overlay;
+    background-position-y: 50% ;
+    background-position-x: 70% ;
+}
+.trigback {
+    background-image: url(https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode:overlay;
+    background-position-y: 50% ;
+}
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
    .experience__container {

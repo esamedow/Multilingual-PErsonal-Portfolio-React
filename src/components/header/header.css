@@ -8,14 +8,93 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-}
 
+}
+.toptext {
+
+}
+.toptext2 {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.char {
+    transform: translateY(115px);
+    transition: transform.5s;
+}
+.toptextmargin {
+    margin-top: 11rem;
+}
 /* ========= CTA ======*/
 .cta {
-    margin-top: 2.5rem;
+    margin-top: -2.7rem;
+    margin-bottom: 2.5rem ;
     display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+    margin-right: 0.5rem;
+
+    gap: 0.2rem;
+    justify-content:flex-end;
+}
+.ctaborder {
+    border-color: var(--color-white) !important;
+    color: var(--color-white) !important;
+}
+.ctaborder:hover {
+    color: var(--color-bg) !important;
+}
+
+.toplogo {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    display:block;
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    width: fit-content;
+    cursor: pointer;
+ 
+}
+.toplogo:hover {
+ 
+}
+span.anatex {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  span.anatex:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+span.anatex:before {
+    left: -0.5rem;
+  }
+span.anatex:after {
+    right: 2.9rem;
+    background: rgb(255, 255, 255);
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+span.anatex:hover:before {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+span.anatex:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+  
+span.tex:hover {
+    opacity: 0.5;
 }
 
 /* ========= HEADER SOCIALS ======*/
@@ -38,7 +117,8 @@ header {
 
 /* ========= ME ======*/
 .me {
-background: linear-gradient(var(--color-primary), transparent);
+background:transparent;
+
 width: 22rem;
 height: 30rem;
 position: absolute;
@@ -61,6 +141,7 @@ padding: 1rem 1.5rem 1.5rem 1.5rem;
 
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
+
 header {
     height: 68vh;
 }
@@ -71,7 +152,9 @@ header {
 @media screen and (max-width : 600px){
 header {
     height: 100vh;
+
 }
+
 .header__socials, .scroll__down {
     display:none;
 }

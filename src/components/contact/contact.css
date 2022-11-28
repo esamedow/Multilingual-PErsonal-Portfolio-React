@@ -3,12 +3,14 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    overflow: hidden;
 }
 
 .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    overflow: hidden;
 }
 
 .contact__option {
@@ -21,7 +23,7 @@
 }
 
 .contact__option:hover {
-    background: transparent;
+
     border-color: var(--color-contact);
 }
 .contact__option-icon {
@@ -41,6 +43,8 @@
 .sendmessagebtn {
     background-color: var(--color-contact) !important;
     border-color: var(--color-contact) !important ;
+
+ 
 }
 
 .sendmessagebtn:hover {
@@ -65,9 +69,39 @@ input , textarea {
     resize: none;
     color: var(--color-white);
 }
+input:focus {
+    outline: none !important;
+    border:1px solid var(--color-contact-form)!important;
+    box-shadow: 5px 5px 10px var(--color-contact);
+    transition: var(--transition);
+  }
+
+textarea:focus {
+    outline: none !important;
+    border:1px solid var(--color-contact-form)!important;
+    box-shadow: 5px 5px 10px var(--color-contact);
+    transition: var(--transition);
+}
 
 .sendbuttoncolor {
     color: var(--color-contact);
+}
+
+.art7trig {
+    background-image: url(https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode:overlay;
+    background-position-y: 59%;
+    background-position-x: 31%;
+}
+.art8trig{
+    background-image: url(https://images.unsplash.com/photo-1643917567366-5afb8cf4bac9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode:overlay;
+    background-position-x: center;
+    background-position-y: 31%;
 }
 /* ============= MEDIA QUERIES ( MEDIUM DEVICES) ========= */
 @media screen and (max-width : 1024px){
